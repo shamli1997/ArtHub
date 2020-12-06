@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:1px solid gray
+}
+
+.header__logo{
+    height:40px;
+    /* Maintains the aspect ratio */
+    object-fit: contain;
+    width:90px;
+}
+.header__icon{
+    padding:20px;
+    color:rgb(238, 197, 17);
+}
